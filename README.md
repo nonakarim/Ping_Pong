@@ -1,6 +1,6 @@
 # 🏓 Ping Pong (C++)
 
-A classic Pong game implemented in C++ using object-oriented programming.
+A Pong game implemented in C++ using object-oriented programming.
 
 ## 📌 Features
 - Paddle movement
