@@ -2,46 +2,46 @@
 #include "raylib.h"
 
 struct Declarations{
-    Texture2D start = LoadTexture("Images/Start.png");
+    Texture2D start = LoadTexture("assets/images/Start.png");
     Rectangle startRec = {0, 0, 283, 114};
 
-    Texture2D stop = LoadTexture("Images/Stop.png");
+    Texture2D stop = LoadTexture("assets/images/Stop.png");
     Rectangle stopRec = {0, 0, 294, 144};
 
     Rectangle startDestRec;
     Rectangle stopDestRec;
 
-    Image icon = LoadImage("Images/Icon.png");
+    Image icon = LoadImage("assets/images/Icon.png");
 
-    Texture2D Bg = LoadTexture("Images/Bg.jpg");
+    Texture2D Bg = LoadTexture("assets/images/Bg.png");
     Rectangle BgRec = {0, 0, 484, 260};
     Rectangle BgDestRec;
 
-    Texture2D Paddle1 = LoadTexture("Images/Paddle1.png");
+    Texture2D Paddle1 = LoadTexture("assets/images/Paddle1.png");
     Rectangle Paddle1Rec = {0, 0, 239, 391};
     Rectangle Paddle1DestRec;
 
-    Texture2D Paddle2 = LoadTexture("Images/Paddle2.png");
+    Texture2D Paddle2 = LoadTexture("assets/images/Paddle2.png");
     Rectangle Paddle2Rec = {0, 0, 194, 345};
     Rectangle Paddle2DestRec;
 
-    Texture2D Ball = LoadTexture("Images/Ball.png");
+    Texture2D Ball = LoadTexture("assets/images/Ball.png");
     Rectangle BallRec = {0, 0, 254, 266};
     Rectangle BallDestRec;
 
-    Texture2D UseMouse = LoadTexture("Images/Use mouse.png");
+    Texture2D UseMouse = LoadTexture("assets/images/Use mouse.png");
     Rectangle UseMouseSrc = {0, 0, 492, 138};
     Rectangle UseMouseDest;
 
-    Texture2D UseKeyboard = LoadTexture("Images/Use keyboard.png");
+    Texture2D UseKeyboard = LoadTexture("assets/images/Use keyboard.png");
     Rectangle UseKeyboardSrc = {0, 0, 492, 138};
     Rectangle UseKeyboardDest;
 
-    Sound hit = LoadSound("audio/PaddleHit.mp3");
-    Sound win = LoadSound("audio/win.mp3");
-    Sound lose = LoadSound("audio/Lose.mp3");
-    Sound pickOne = LoadSound("audio/PickOne.wav");
-    Music gamePlay = LoadMusicStream("audio/GamePlay.mp3");
+    Sound hit = LoadSound("assets/audio/PaddleHit.mp3");
+    Sound win = LoadSound("assets/audio/win.mp3");
+    Sound lose = LoadSound("assets/audio/Lose.mp3");
+    Sound pickOne = LoadSound("assets/audio/PickOne.wav");
+    Music gamePlay = LoadMusicStream("assets/audio/GamePlay.mp3");
 
     void throwExceptions()
     {

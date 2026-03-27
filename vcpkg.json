@@ -1,0 +1,8 @@
+{
+  "name": "ping-pong-raylib",
+  "version": "1.0.0",
+  "dependencies": [
+    "raylib",
+    "glfw3"
+  ]
+}
